@@ -1,0 +1,59 @@
+ul li {
+  list-style: none;
+}
+header{
+  height: 100vh;
+  background:url("../images/1.jpg") ,linear-gradient(rgba(0,0,0,1),rgba(39, 36, 29, 0.8));
+
+}
+
+.layer
+{
+   background-color: #FDFDFD;
+}
+.layer i {
+   font-size: 10px;
+   color: white;
+   background-color: black;
+   transition: all 1s;
+   cursor: pointer;
+}
+.layer i:hover {
+   background-color: white;
+   border-color: black;
+   color: black;
+}
+.Portofolio .layer
+{
+   position: absolute;
+   top: 2%;
+   right: 2%;
+   bottom: 2%;
+   left: 2%;
+   opacity: 0;
+   transition: 1s all;
+}
+.Portofolio .focusout:hover .layer{
+   opacity: 1;;
+}
+.Portofolio .focusout:hover .layer{
+  opacity: 1;;
+}
+button.buthover:hover{
+  background-color: #F7F7F7;
+  color: black;
+}
+
+.focusout{
+  overflow: hidden;
+  max-width: 100%;
+  
+}
+.focusoutt{
+  overflow: hidden;
+  max-width: 100%;
+  
+}
+.Portofolio img{
+  height: 200px;
+}
