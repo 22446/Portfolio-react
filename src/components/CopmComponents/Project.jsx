@@ -6,7 +6,7 @@ import { useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
-export default function Project({arr , text,linkvercal,linkgit ,img,kind='',color=''} ) {
+export default function Project({arr , text,linkvercal,linkgit ,img,kind='',color='',icon=''} ) {
   const scrollRef = useRef();
   useGSAP(function () {
     const boxs = gsap.utils.toArray(scrollRef.current.children);
@@ -36,7 +36,7 @@ export default function Project({arr , text,linkvercal,linkgit ,img,kind='',colo
   }, []);
   return (
       <div ref={scrollRef} className="col-lg-4 col-md-6 col-12 position-relative  mt-3 myHover2 overflow-hidden">
-       {kind.length>1&&<IconAngReac kind={kind} color={color}/>}
+       {kind.length>1&&<IconAngReac kind={kind} color={color} icon={icon}/>}
               <div className=" bg-white shadow rounded-3">
                 <div className="focusout position-relative overflow-hidden  rounded-2">
                   <div className=" d-flex flex-wrap flex-column  align-items-center justify-content-center  layer rounded-2">

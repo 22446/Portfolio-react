@@ -35,7 +35,7 @@ export default function Header() {
   <div className="container">
     <h1  className=" text text-uppercase text-white fw-bolder">Hey, I'm Mazin Safwat</h1>
     <p  className="text text-white fs-4 py-3">
-      Front-End Developer with a strong foundation in <span className="text-info fw-bold">React</span> , <span className="text-danger fw-bold">Angular</span> , HTML, Typescript, CSS, and JavaScript. Focused on building responsive and user-friendly web applications. Passionate about learning new technologies and creating dynamic user interfaces. Eager to contribute to projects and grow as a developer
+      Front-End Developer with a strong foundation in <span className="text-info fw-bold">React</span> , <span className="text-danger fw-bold">Angular</span> , <span className="text-success fw-bold">Vue.js</span> , HTML, Typescript, CSS, and JavaScript. Focused on building responsive and user-friendly web applications. Passionate about learning new technologies and creating dynamic user interfaces. Eager to contribute to projects and grow as a developer
     </p>
     <div className="text text-center pb-3 fs-4 ">
       <a href="mailto:mazin.safwat66@gmail.com.com" className="text-decoration-none" target="_blank"> <i className="fas fa-envelope text-white" /></a>

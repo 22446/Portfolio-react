@@ -62,10 +62,12 @@ export default function Aboutme() {
     "CSS",
     "Bootstrap",
     "Tailwind",
+    "Vuetify",
     "JavaScript",
     "TypeScript",
     "jQuery",
     "React",
+    "Vue.js",
     "Angular-17",
   ];
 
